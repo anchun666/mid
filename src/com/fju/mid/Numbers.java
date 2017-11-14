@@ -6,10 +6,12 @@ public class Numbers {
 		System.out.println("請使用者輸入一個數字:");
 		Scanner scanner = new Scanner(System.in);
 		String line = scanner.nextLine();
-		int number = Integer.parseInt(line);
-		System.out.println("1");
+		int n = Integer.parseInt(line);
+		for (int i = 1; i < n;i++){
+		System.out.println((n-i));
 		
 		
 
 	}
+}
 }
