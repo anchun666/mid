@@ -8,7 +8,8 @@ public class Numbers {
 		String line = scanner.nextLine();
 		int n = Integer.parseInt(line);
 		for (int i = 1; i < n;i++){
-		System.out.println((n-i));
+		System.out.println((n-i)+"\t");
+		
 		
 		
 
